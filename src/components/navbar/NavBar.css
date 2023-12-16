@@ -3,6 +3,8 @@
     margin-top: 5%;
 }
 
-.navbar {
-    --bs-navbar-nav-link-padding-x: 2.0rem;
+@media (min-width: 700px) {
+    .navbar {
+        --bs-navbar-nav-link-padding-x: 2.0rem;
+    }
 }
